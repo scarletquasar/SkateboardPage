@@ -1,10 +1,11 @@
 html, body {
+    color: #fff;
     margin: 0;
     font-family: 'Varela Round', sans-serif;
 }
 
 body {
-    background: linear-gradient(45deg, #140E56, #140E56, #0F1828, #3E002B, #3E002B);
+    background: linear-gradient(45deg, #0E2C54, #0E2C54, #0F1828, #3E002B, #3E002B);
     background-size: cover;
 
     display: flex;
@@ -20,7 +21,7 @@ body {
     height: 40em;
 
     background-color: rgba(0,0,0,0.3);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(13em);
 
     border-radius: 1em;
 }
