@@ -43,3 +43,11 @@
 #search-box input:focus {
     outline:0;
 }
+
+.nav-bar-icon {
+    width: 2em;
+    object-fit:cover;
+
+    image-rendering: optimizeSpeed;
+    image-rendering: -webkit-optimize-contrast;
+}

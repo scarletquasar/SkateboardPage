@@ -36,12 +36,14 @@ body {
 
 #head-content-left {
     display: flex;
+    align-items: center;
     flex-direction: row;
     width: 48%;
 }
 
 #head-content-right {
     display: flex;
+    align-items: center;
     flex-direction: row-reverse;
     width: 48%;
 }
