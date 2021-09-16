@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-    background: url('../media/img/background.jpg');
+    background: linear-gradient(45deg, #140E56, #140E56, #0F1828, #3E002B, #3E002B);
     background-size: cover;
 
     display: flex;
@@ -11,15 +11,24 @@ body {
 }
 
 #main-container {
-    display: inline-block;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
 
     margin: 3%;
     width: 90%;
     height: 40em;
 
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.3);
     backdrop-filter: blur(20px);
 
     border-radius: 1em;
+}
+
+#head-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 15%;
+    width: 100%;
 }

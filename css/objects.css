@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap');
 
-.opaque-container {
-    opacity: 1;
-}
-
 #main-logo {
-    padding-left: 2%;
-    padding-top: 2%;
+    padding-inline: 2%;
     pointer-events: none;
 }
 
@@ -14,4 +9,14 @@
     font-family: 'MuseoModerno', cursive;
     font-size: 1.6em;
     color: #fff;
+}
+
+#search-box {
+    background: #26243A;
+
+    border-radius: 1em;
+    border: none;
+
+    width: 5em;
+    height: 2em;
 }
