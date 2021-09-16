@@ -44,9 +44,15 @@
     outline:0;
 }
 
+#search-box img {
+    cursor: pointer;
+}
+
 .nav-bar-icon {
-    width: 2em;
+    width: 2.2em;
     object-fit:cover;
+
+    margin-left: 1%;
 
     image-rendering: optimizeSpeed;
     image-rendering: -webkit-optimize-contrast;
