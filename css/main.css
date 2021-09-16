@@ -18,7 +18,8 @@ body {
     width: 90%;
     height: 40em;
 
-    background: url('../media/img/pixelcolor.png');
+    background-color: rgba(0,0,0,0.5);
     backdrop-filter: blur(20px);
-    opacity: 0.5;
+
+    border-radius: 1em;
 }
