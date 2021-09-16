@@ -81,6 +81,21 @@
     width: 20%;
 }
 
+.side-nav-item {
+    display: flex;
+    height: 1.5em;
+    align-items: center;
+}
+
+.side-nav-item-text {
+    margin-left: 10%;
+}
+
+.side-nav-item:hover {
+    background: red;
+}
+
+
 #center-content {
     width: 70%;
 }
