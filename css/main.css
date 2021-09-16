@@ -28,7 +28,20 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 
     height: 15%;
     width: 100%;
+}
+
+#head-content-left {
+    display: flex;
+    flex-direction: row;
+    width: 48%;
+}
+
+#head-content-right {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 48%;
 }

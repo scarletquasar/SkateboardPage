@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 #main-logo {
-    padding-inline: 2%;
+    padding-right: 5%;
     pointer-events: none;
 }
 
@@ -13,21 +13,33 @@
 }
 
 #search-box {
-    margin-left: 5%;
-    padding-inline: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background: #26243A;
+
+    width: 25em;
+    height: 2.5em;
+
+    margin-left: 4%;
+    padding-inline: 1%;
 
     border-radius: 0.7em;
     border: none;
+}
 
-    width: 25em;
-    height: 2em;
+#search-box input {
+    background: inherit;
+    border: none;
 
     font-family: 'Varela Round', sans-serif;
     font-size: 0.9em;
     color: #fff;
+
+    width: 90%;
+    height: 90%;
 }
 
-#search-box img {
-    float: right;
+#search-box input:focus {
+    outline:0;
 }
