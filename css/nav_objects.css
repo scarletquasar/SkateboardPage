@@ -49,6 +49,10 @@
 }
 
 .nav-bar-icon {
+    transition: 0.2s;
+
+    cursor: pointer;
+
     width: 2.2em;
     object-fit:cover;
 
@@ -57,3 +61,29 @@
     image-rendering: optimizeSpeed;
     image-rendering: -webkit-optimize-contrast;
 }
+
+.nav-bar-icon:hover {
+    transform: scale(1.1);
+}
+
+.nav-bar-icon:active {
+    transform: scale(0.9);
+}
+
+#center-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#side-nav {
+    color: #fff;
+    width: 20%;
+}
+
+#center-content {
+    width: 70%;
+}
+
+
+
