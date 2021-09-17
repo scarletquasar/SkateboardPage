@@ -57,7 +57,9 @@
 .user-post {
     display: flex;
     align-items: center;
-    margin: 5%;
+    margin-inline: 5%;
+    margin-top: 5%;
+    margin-bottom: 11%;
 }
 
 .user-pic {
