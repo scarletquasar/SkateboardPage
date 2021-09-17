@@ -6,7 +6,9 @@ html, body {
 
 body {
     background: linear-gradient(45deg, #0E2C54, #0E2C54, #0F1828, #3E002B, #3E002B);
-    background-size: cover;
+    background-size: 100%;
+    background-attachment: fixed;
+
 
     display: flex;
     justify-content: center;
@@ -16,7 +18,8 @@ body {
     display: flex;
     flex-direction: column;
 
-    margin: 3%;
+    margin-top: 2%;
+    margin-inline: 3%;
     width: 90%;
     height: 35em;
 
