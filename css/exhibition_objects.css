@@ -39,12 +39,30 @@
 
 .user-post {
     display: flex;
+    align-items: center;
     margin: 5%;
 }
 
 .user-pic {
-    width:3em;
-    height:3em;
+    width:2.5em;
+    height:2.5em;
     object-fit:cover;
     border-radius: 100%;
+}
+
+.user-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-title, .user-text {
+    margin-left: 15%;
+}
+
+.user-title{
+    font-size: 0.8em;
+}
+
+.user-text {
+    font-size: 0.6em;
 }
