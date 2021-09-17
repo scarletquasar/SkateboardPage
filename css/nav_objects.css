@@ -109,6 +109,8 @@
 
 
 #center-content {
+    display: flex;
+    flex-direction: row;
     padding-left: 3em;
     width: 75%;
 }
