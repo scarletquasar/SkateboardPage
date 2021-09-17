@@ -85,8 +85,38 @@
 }
 
 #live-chat-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 0 0 1em 1em;
     height: 15%;
+}
+
+#live-chat-input input {
+    color: #fff;
+    background: none;
+
+    border: none;
+    font-family: 'Varela Round', sans-serif;
+
+    height: 100%;
+    width: 70%;
+    text-align: center;
+}
+
+#live-chat-input input:focus {
+    outline:0;
+}
+
+
+#live-chat-input img {
+    width: 1.3em;
+
+    cursor: pointer;
+
+    image-rendering: optimizeSpeed;
+    image-rendering: -webkit-optimize-contrast;
 }
