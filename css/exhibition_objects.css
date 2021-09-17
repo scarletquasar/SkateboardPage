@@ -1,19 +1,18 @@
 #exhibition-container {
-    width: 70%;
+    width: 67%;
     height: 100%;
-    overflow-y: auto;
-    border: 1px solid red;
 }
 
 .exhibition-content {
     width: 100%;
-    height: 100%;
+    height: 80%;
     border-radius: 1em;
     border: none;
 }
 
 #live-chat {
     width: 30%;
+    height: 80%;
     margin-left: 2%;
     border-radius: 1em;
     background: rgba(0, 0, 0, 0.3);

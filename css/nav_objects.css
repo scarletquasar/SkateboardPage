@@ -78,6 +78,7 @@
 
 #side-nav {
     color: #fff;
+    font-size: 0.85em;
     width: 13%;
 }
 
@@ -88,8 +89,8 @@
     border-radius: 0.5em;
     display: flex;
 
-    padding: 1%;
-    margin-block: 2%;
+    padding: 3%;
+    margin-block: 8%;
     height: 1.5em;
     align-items: center;
 }
