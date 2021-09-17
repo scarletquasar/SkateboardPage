@@ -31,3 +31,20 @@
     font-size: 0.7em;
     color: #555;
 }
+
+#live-chat-posts {
+    overflow-y: auto;
+    height: 70%;
+}
+
+.user-post {
+    display: flex;
+    margin: 5%;
+}
+
+.user-pic {
+    width:3em;
+    height:3em;
+    object-fit:cover;
+    border-radius: 100%;
+}
