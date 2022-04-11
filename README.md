@@ -1,7 +1,7 @@
 # skateboard-page
 Template de rede social com tema "skateboard" baseado no tema de <a href="https://github.com/solrachix/skateboard_plataform_video">@solrachix</a>
 <br>
-https://eternalquasar0206.github.io/skateboard-page/
+https://eternalquasar0206.github.io/SkateboardPage/
 
 ## Todo
 <table>
